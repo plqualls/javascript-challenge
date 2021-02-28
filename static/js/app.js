@@ -17,3 +17,12 @@ var addData = (dataInput) => {
     });
 }
 
+addData(tableData);
+
+button.on("click", () => {
+    d3.event.preventDefault();
+
+    var inputDate = inputDate.property("value").trim();
+
+    
+})
