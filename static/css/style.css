@@ -10,6 +10,8 @@ body {
   margin: 0;
 }
 
+
+
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
 .wrapper {
   position: relative;
@@ -28,6 +30,8 @@ body {
   background: #4e5d6c;
 }
 
+
+
 /* The code styles the text at the bottom of the footer */
 .footer > .bottom {
   position: absolute;
@@ -35,7 +39,7 @@ body {
   bottom: 0;
   left: 0;
   padding: 5px;
-  background: #1b3146;
+  background: #461b36;
 }
 
 .navbar {
@@ -51,6 +55,8 @@ body {
   width: 35px;
   color: white;
 }
+
+
 
 /* Adding styles to the aside and filter form */
 .ufo-form {
@@ -91,8 +97,96 @@ select {
   margin-top: 50px;
 }
 
+
+
 /* The styles for the parallax */
-.hero {
+@import url(//fonts.googleapis.com/css?family=Pacifico);
+.lasvegas {
+
+height: 400px;
+padding-top: 5rem;
+margin: 0;
+background-image: url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg);
+background-attachment: fixed;
+background-position: bottom center;
+background-size: cover;
+overflow: hidden;
+}
+.lasvegas {
+  font-family: 'Pacifico', cursive;
+  font-size:80px;
+  border: none;
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  text-shadow: 
+     1px 5px 4px rgba(0,0,0,.3), 
+    0 0 2px rgba(255,255,255,1), 
+    0 0 10px rgba(255,255,255,1), 
+    0 0 20px rgba(255,255,255,1), 
+    0 0 30px rgba(255,255,255,1), 
+    0 0 40px #ff00de, 
+    0 0 70px #ff00de, 
+    0 0 80px #ff00de,
+    0 0 100px #ff00de;
+    
+}
+
+
+.lasvegas span{
+  animation: blink .3s infinite alternate;
+}
+
+.lasvegas span.delay{
+  animation-duration:6s;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  cubic-bezier:(0.5, 0.2, 0.3, 1.0)
+}
+
+
+@keyframes blink {
+  0%   {}
+  50%  {}
+  60%{
+    text-shadow: 
+      0 0 2px rgba(255, 255, 255, .1), 
+      0 0 10px rgba(255, 255, 255, .4);
+    
+    text-stroke: 2px rgba(255,255,255,0.05);
+  }
+  70%{
+    text-shadow: 
+      0 0 2px rgba(255,255,255,1), 
+      0 0 10px rgba(255,255,255,1), 
+      0 0 20px rgba(255,255,255,1), 
+      0 0 30px rgba(255,255,255,1), 
+      0 0 40px #ff00de, 
+      0 0 70px #ff00de, 
+      0 0 80px #ff00de,
+      0 0 100px #ff00de;
+  }
+  80%{
+    text-shadow: 
+      0 0 2px rgba(255, 255, 255, .1), 
+      0 0 10px rgba(255, 255, 255, .4);
+    
+    text-stroke: 2px rgba(255,255,255,0.05);
+  }
+  100% { 
+    text-shadow: 
+      0 0 2px rgba(255,255,255,1), 
+      0 0 10px rgba(255,255,255,1), 
+      0 0 20px rgba(255,255,255,1), 
+      0 0 30px rgba(255,255,255,1), 
+      0 0 40px #ff00de, 
+      0 0 70px #ff00de, 
+      0 0 80px #ff00de,
+      0 0 100px #ff00de;
+  }
+}
+
+/* --------------------------------------------Old code--------------------
+/* .hero {
   position: relative;
   height: 550px;
   padding: 20px;
@@ -102,20 +196,28 @@ select {
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
-}
+} */
 
-.hero h1 {
+
+
+/* .hero h1 {
   margin-top: 200px;
   font-size: 0.1rem;
   animation: title 1.2s forwards linear;
-}
+} */
 
-.hero p {
+
+
+
+
+/* .hero p {
   font-size: 2rem;
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
-}
+} */
+
+
 
 /* input placeholder color changes */
 .form-control::-webkit-input-placeholder {
@@ -186,12 +288,12 @@ select {
     content: attr(data-th);
   }
 
-  .hero h1 {
+  /* .hero h1 {
     animation: smaller-title 1.2s forwards linear;
-  }
+  } */
 }
 
-/* keyframe animations which will be used to animate the title */
+/* keyframe animations which will be used to animate the title
 @keyframes title {
   from {
     opacity: 0;
@@ -222,4 +324,4 @@ select {
   to {
     opacity: 1;
   }
-}
+} */
