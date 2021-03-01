@@ -10,16 +10,188 @@ body {
   padding: 0px;
   margin: 0px;
 }
+
+/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 130px;
+  overflow: auto;
+}
+
+/* The footer is positioned at the bottom of the page */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100px;
+  background: #4e5d6c;
+}
+
+
+
+/* The code styles the text at the bottom of the footer */
+.footer > .bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background: #461b36;
+}
+
+.navbar {
+  padding: 5px;
+  margin: 0;
+}
+
+/* This CSS styles the ufo icon in the navbar */
+.nav-ufo {
+  position: absolute;
+  bottom: 5px;
+  left: 150px;
+  width: 35px;
+  color: white;
+}
+
+
+
+/* Adding styles to the aside and filter form */
+.ufo-form {
+  margin-top: 50px;
+}
+
+.filters .panel-body {
+  padding: 0;
+}
+
+.filters {
+  margin-top: 10px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  color: #8e979f;
+  outline: none;
+}
+
+#table-area th {
+  text-align: center;
+}
+
+#table-area th:first-child,
+#table-area th:nth-child(2),
+#table-area th:nth-child(6) {
+  min-width: 70px;
+}
+
+.loader {
+  margin-top: 50px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+/* The styles for the parallax */
+@import url(//fonts.googleapis.com/css?family=Pacifico);
+.lasvegas {
+
+height: 400px;
+padding-top: 5rem;
+margin: 0;
+background-image: url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg);
+background-attachment: fixed;
+background-position: bottom center;
+background-size: cover;
+overflow: hidden;
+}
+.lasvegas {
+  font-family: 'Pacifico', cursive;
+  font-size:80px;
+  border: none;
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  text-shadow: 
+     1px 5px 4px rgba(0,0,0,.3), 
+    0 0 2px rgba(255,255,255,1), 
+    0 0 10px rgba(255,255,255,1), 
+    0 0 20px rgba(255,255,255,1), 
+    0 0 30px rgba(255,255,255,1), 
+    0 0 40px #ff00de, 
+    0 0 70px #ff00de, 
+    0 0 80px #ff00de,
+    0 0 100px #ff00de;
+    
+}
+
+
+.lasvegas span{
+  animation: blink .3s infinite alternate;
+}
+
+.lasvegas span.delay{
+  animation-duration:6s;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  unicode-bidi:(0.5, 0.2, 0.3, 1.0)
+}
+
+
+@keyframes blink {
+  0%   {}
+  50%  {}
+  60%{
+    text-shadow: 
+      0 0 2px rgba(255, 255, 255, .1), 
+      0 0 10px rgba(255, 255, 255, .4);
+    
+    text-stroke: 2px rgba(255,255,255,0.05);
+  }
+  70%{
+    text-shadow: 
+      0 0 2px rgba(255,255,255,1), 
+      0 0 10px rgba(255,255,255,1), 
+      0 0 20px rgba(255,255,255,1), 
+      0 0 30px rgba(255,255,255,1), 
+      0 0 40px #ff00de, 
+      0 0 70px #ff00de, 
+      0 0 80px #ff00de,
+      0 0 100px #ff00de;
+  }
+  80%{
+    text-shadow: 
+      0 0 2px rgba(255, 255, 255, .1), 
+      0 0 10px rgba(255, 255, 255, .4);
+    
+    text-stroke: 2px rgba(255,255,255,0.05);
+  }
+  100% { 
+    text-shadow: 
+      0 0 2px rgba(255,255,255,1), 
+      0 0 10px rgba(255,255,255,1), 
+      0 0 20px rgba(255,255,255,1), 
+      0 0 30px rgba(255,255,255,1), 
+      0 0 40px #ff00de, 
+      0 0 70px #ff00de, 
+      0 0 80px #ff00de,
+      0 0 100px #ff00de;
+  }
+}
+
 html{background: linear-gradient(to bottom, rgb(3,77,114) 1%,rgb(113,49,99) 100%);}
 body{
   
-  width: 100%;
+  width: 101%;
 }
 .scene{
   width: 100%;
   height:100%;
   animation: focus 10s ease-in-out infinite; 
-  -webkit-filter: blur();
+  
 overflow: hidden;
   z-index:1;
   position:absolute;
@@ -122,7 +294,7 @@ border-top: 2px solid rgba(255,255,255,0.5);
   overflow:hidden; 
   box-shadow: 0px -4px 0px #111, 0px -17px 17px rgba(155, 227, 250, 0.13);
   /* this fixes the overflow:hidden in Chrome */
--webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 
 }
 .inner{
@@ -183,7 +355,7 @@ border-top: 2px solid rgba(255,255,255,0.5);
   z-index: 1;
   animation: thrusting 10s ease-in-out infinite;
   opacity:0.2;
-  -webkit-filter:blur(0px);
+  ;
 }
 @keyframes thrusting { 50% {opacity:0.6;-webkit-filter:blur(1.0);}}
 
@@ -205,7 +377,7 @@ border-top: 2px solid rgba(255,255,255,0.5);
   border-radius: 0px 0px 50% 50%;
   position: absolute;
   box-shadow: 0px 10px 20px rgba(168, 241, 255, 0.23), inset 0px 23px 6px #8DDCF0;
-  -webkit-filter: blur(4px);
+  
 }
 .thrust ul li:nth-child(1) {
   animation-name: move;
@@ -292,7 +464,7 @@ ul.trees2{
   padding: 0px;
   width: 100%;
   text-align:center;
-  -webkit-filter:blur(3px); 
+  
 }
 ul.trees2 li{
   width: 0px;
@@ -332,7 +504,7 @@ ul.trees1{
   padding: 0px;
   width: 100%;
   text-align:center;
-  -webkit-filter:blur(8px); 
+  
 }
 ul.trees1 li{
   width: 0px;
@@ -378,7 +550,7 @@ margin: 0px;
 padding: 0px;
 width: 100%;
 text-align: center;
--webkit-filter: blur(2px);
+
 left: 250px;
 }
 ul.trees3 li {
@@ -440,7 +612,7 @@ background: radial-gradient(ellipse at center, rgba(230,234,237,1) 0%,rgba(21,11
 list-style-type: none;
 width: 10px;
 height: 10px;
--webkit-transform: rotate(45deg);
+
 display: block;
 position: absolute;
 }
@@ -504,7 +676,7 @@ position: absolute;
 }
 .battery{
 position: absolute;
-top: 20px;
+top: 40px;
 left: 20px;
 width: 80px;
 height: 34px;
@@ -604,180 +776,6 @@ animation-delay: 2s;
   font-size:20px;
   letter-spacing:1px;
 }
-
-/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
-.wrapper {
-  position: relative;
-  min-height: 100%;
-  padding-bottom: 130px;
-  overflow: auto;
-}
-
-/* The footer is positioned at the bottom of the page */
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  min-height: 100px;
-  background: #4e5d6c;
-}
-
-
-
-/* The code styles the text at the bottom of the footer */
-.footer > .bottom {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 5px;
-  background: #461b36;
-}
-
-.navbar {
-  padding: 5px;
-  margin: 0;
-}
-
-/* This CSS styles the ufo icon in the navbar */
-.nav-ufo {
-  position: absolute;
-  bottom: 5px;
-  left: 150px;
-  width: 35px;
-  color: white;
-}
-
-
-
-/* Adding styles to the aside and filter form */
-.ufo-form {
-  margin-top: 50px;
-}
-
-.filters .panel-body {
-  padding: 0;
-}
-
-.filters {
-  margin-top: 10px;
-}
-
-select {
-  display: block;
-  width: 100%;
-  padding: 8px;
-  color: #8e979f;
-  outline: none;
-}
-
-#table-area th {
-  text-align: center;
-}
-
-#table-area th:first-child,
-#table-area th:nth-child(2),
-#table-area th:nth-child(6) {
-  min-width: 70px;
-}
-
-.loader {
-  margin-top: 50px;
-}
-
-.margin-top-50 {
-  margin-top: 50px;
-}
-
-
-
-/* The styles for the parallax */
-@import url(//fonts.googleapis.com/css?family=Pacifico);
-.lasvegas {
-
-height: 400px;
-padding-top: 5rem;
-margin: 0;
-background-image: url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg);
-background-attachment: fixed;
-background-position: bottom center;
-background-size: cover;
-overflow: hidden;
-}
-.lasvegas {
-  font-family: 'Pacifico', cursive;
-  font-size:80px;
-  border: none;
-  color: rgba(255,255,255,0.6);
-  text-align: center;
-  text-shadow: 
-     1px 5px 4px rgba(0,0,0,.3), 
-    0 0 2px rgba(255,255,255,1), 
-    0 0 10px rgba(255,255,255,1), 
-    0 0 20px rgba(255,255,255,1), 
-    0 0 30px rgba(255,255,255,1), 
-    0 0 40px #ff00de, 
-    0 0 70px #ff00de, 
-    0 0 80px #ff00de,
-    0 0 100px #ff00de;
-    
-}
-
-
-.lasvegas span{
-  animation: blink .3s infinite alternate;
-}
-
-.lasvegas span.delay{
-  animation-duration:6s;
-  animation-delay: 2s;
-  animation-direction: alternate;
-  cubic-bezier:(0.5, 0.2, 0.3, 1.0)
-}
-
-
-@keyframes blink {
-  0%   {}
-  50%  {}
-  60%{
-    text-shadow: 
-      0 0 2px rgba(255, 255, 255, .1), 
-      0 0 10px rgba(255, 255, 255, .4);
-    
-    text-stroke: 2px rgba(255,255,255,0.05);
-  }
-  70%{
-    text-shadow: 
-      0 0 2px rgba(255,255,255,1), 
-      0 0 10px rgba(255,255,255,1), 
-      0 0 20px rgba(255,255,255,1), 
-      0 0 30px rgba(255,255,255,1), 
-      0 0 40px #ff00de, 
-      0 0 70px #ff00de, 
-      0 0 80px #ff00de,
-      0 0 100px #ff00de;
-  }
-  80%{
-    text-shadow: 
-      0 0 2px rgba(255, 255, 255, .1), 
-      0 0 10px rgba(255, 255, 255, .4);
-    
-    text-stroke: 2px rgba(255,255,255,0.05);
-  }
-  100% { 
-    text-shadow: 
-      0 0 2px rgba(255,255,255,1), 
-      0 0 10px rgba(255,255,255,1), 
-      0 0 20px rgba(255,255,255,1), 
-      0 0 30px rgba(255,255,255,1), 
-      0 0 40px #ff00de, 
-      0 0 70px #ff00de, 
-      0 0 80px #ff00de,
-      0 0 100px #ff00de;
-  }
-}
-
 
 
 /* --------------------------------------------Old code--------------------
