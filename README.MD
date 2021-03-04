@@ -17,7 +17,7 @@
 <h3>Level 1 UFO</h3>
 <p>Create a basic web-page utilizing the following files:<p>
 <ul style="list-style-type:circle;">
-<li><href="https://github.com/plqualls/javascript-challenge/blob/main/index.html>HTML file</li></a>
+<li><a href="https://github.com/plqualls/javascript-challenge/blob/main/index.html>HTML file</li></a>
 
 
 
