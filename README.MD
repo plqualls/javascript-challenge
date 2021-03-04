@@ -7,6 +7,10 @@
 
 <h2>Background</h2>
 <p> ALIENS-R-REAL have collected reports from eye-witnesses in an attempt to prove that an extra-terrestrial menace has made an appearance on earth.  ALIENS-R-REAL has decided to utilize their data to showcase their findings online.  While attempting this, they received several complaints that their collection was too large to search for specific events manually, resulting in the company hiring us. </p>
+<br>
+<h2>Project Objectives</h2>
+-[x] Create and name repository 'javascript-challenge'.
+-[x] Push <a href "index.html">html file</a> static folder to repository.
 
 
  
