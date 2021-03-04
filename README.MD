@@ -35,6 +35,13 @@
 <div></div>
 <b><strong>UFO Goal</strong></b>
 <div> Use a date form in your HTML document and write Javascript code that will listen for events and allow users the capabability of searching through the "date/time" column to find rows that match their input.</div>
+<br>
+<h2>Screenshots</h2>
+<p> Below are images that demonstrate the ability to filter data pertaining to the date.</p>
+<div>
+<h3> UFO IS HERE</h3>
+<img src ="UFO.png" alt="UFO is here" width="460 height="345>
+
 
 
  
