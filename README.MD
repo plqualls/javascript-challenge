@@ -15,9 +15,9 @@
 <li>Complete Level 1 UFO objective. :heavy_exclamation_mark:Required</li>
 <br>
 <h3>Level 1 UFO</h3>
-<div>Create a basic web-page that utilizing the following files which can be found in the static folder:</div>
-<dl style="list-style-type:circle;">
-<dt><a href="https://github.com/plqualls/javascript-challenge/blob/main/index.html">Index.html</a></dt>
+<div>Create a basic web-page that utilizing the following files which can be found in the static folder. :warning: Please note that there are subfolders in the static folder.</div>
+<ul style="list-style-type:circle;">
+<li><a href="https://github.com/plqualls/javascript-challenge/blob/main/index.html">Index.html</a></li>
 <li><a href="https://github.com/plqualls/javascript-challenge/tree/main/static/css">Styles.css</a></li>
 <li><a href="https://github.com/plqualls/javascript-challenge/tree/main/static/images">Pictures</a></li>
 <li><a href="https://github.com/plqualls/javascript-challenge/blob/main/static/js/data.js">Data.js</a></li>
@@ -30,7 +30,10 @@
 <li>Country</li>
 <li>Shape</li>
 <li>Comment</li>
-
+</ol>
+<div></div>
+<b><strong>Level 1 UFO Goal</strong></b>
+<div> Use a date form in your HTML document and write Javascript code that will listen for events and allow users the capabability of searching through the "date/time" column to find rows that match their input.
 
 
  
