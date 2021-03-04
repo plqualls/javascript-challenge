@@ -9,9 +9,9 @@
 <p> ALIENS-R-REAL have collected reports from eye-witnesses in an attempt to prove that an extra-terrestrial menace has made an appearance on earth.  ALIENS-R-REAL has decided to utilize their data to showcase their findings online.  While attempting this, they received several complaints that their collection was too large to search for specific events manually, resulting in the company hiring us. </p>
 <br>
 <h2>Project Objectives</h2>
-* Create and name repository 'javascript-challenge'.;
-Push html file and static folder to repository.
-Complete Level 1 UFO objective. :heavy_exclamation_mark:Required
+- []Create and name repository 'javascript-challenge'.
+- []Push html file and static folder to repository.
+- []Complete Level 1 UFO objective. :heavy_exclamation_mark:Required
 
 
 
