@@ -15,10 +15,21 @@
 <li>Complete Level 1 UFO objective. :heavy_exclamation_mark:Required</li>
 <br>
 <h3>Level 1 UFO</h3>
-<p>Create a basic web-page utilizing the following files:<p>
-<ul style="list-style-type:circle;">
-<li><a href="https://github.com/plqualls/javascript-challenge/blob/main/index.html">HTML file</a></li>
-
+<div>Create a basic web-page that utilizing the following files which can be found in the static folder:</div>
+<dl style="list-style-type:circle;">
+<dt><a href="https://github.com/plqualls/javascript-challenge/blob/main/index.html">Index.html</a></dt>
+<li><a href="https://github.com/plqualls/javascript-challenge/tree/main/static/css">Styles.css</a></li>
+<li><a href="https://github.com/plqualls/javascript-challenge/tree/main/static/images">Pictures</a></li>
+<li><a href="https://github.com/plqualls/javascript-challenge/blob/main/static/js/data.js">Data.js</a></li>
+<li><a href="https://github.com/plqualls/javascript-challenge/blob/main/static/js/app.js">App.js</a></li>
+<div>To ensure that visitors are able to filter the data correctly, make sure you have the following columns.
+<ol>
+<li>Date/Time</li>
+<li>City</li>
+<li>State</li>
+<li>Country</li>
+<li>Shape</li>
+<li>Comment</li>
 
 
 
