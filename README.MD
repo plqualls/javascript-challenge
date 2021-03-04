@@ -40,7 +40,7 @@
 <p> Below are images that demonstrate the ability to filter data pertaining to the date.</p>
 <div>
 <h3> UFO IS HERE</h3>
-<img src ="UFO.png" alt="UFO is here" width="460 height="345>
+<img src ="UFO.png" width="460 height="345>
 
 
 
