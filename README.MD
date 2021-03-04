@@ -24,8 +24,8 @@
 <li><a href="https://github.com/plqualls/javascript-challenge/blob/main/static/js/app.js">App.js</a></li>
 
 <div>
-<p>To ensure that visitors are able to filter the data correctly, make sure you have the following columns.</p>
 </div>
+<p>To ensure that visitors are able to filter the data correctly, make sure you have the following columns.</p>
 <ol>
 <li>Date/Time</li>
 <li>City</li>
@@ -39,8 +39,8 @@
 <b><strong>UFO Goal</strong></b>
 <div> Use a date form in your HTML document and write Javascript code that will listen for events and allow users the capabability of searching through the "date/time" column to find rows that match their input.</div>
 <br>
-<h2>Screenshots</h2>
-<p> Below are images from the website which displays graphics and demonstrates the ability to filter data pertaining to the date.</p>
+<h2>:camera: Screenshots</h2>
+<p> Below are images from the website which displays graphics and demonstrates the ability to filter data pertaining to the date. :warning: Some pictures are blury due to the graphics displayed on the page. Click picture to have a clear view.</p>
 <div>
 <h3> UFO IS HERE</h3>
 <img src ="UFO -Level-1/Website Images/UFO.png" width="460" height="345">
@@ -52,7 +52,7 @@
 <img src ="UFO -Level-1/Website Images/ufo_findings.png" width="460" height="345">
 <div>
 <h3>No UFO</h3>
-<img src = "UFO -Level-1/Website Images/no_ufo.png" width="500" height="400">
+<img src = "UFO -Level-1/Website Images/no_ufo.png" width="460" height="345">
 
 
  
