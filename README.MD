@@ -11,7 +11,8 @@
 <h2>Project Objectives</h2>
 Create and name repository 'javascript-challenge'.
 Push html file and static folder to repository.
-Complete Level 1 UFO objective. :heavy_exclamation_mark:bold text <sub>Required</sub> bold text
+Complete Level 1 UFO objective. :heavy_exclamation_mark:**Required**
+
 
 
 
